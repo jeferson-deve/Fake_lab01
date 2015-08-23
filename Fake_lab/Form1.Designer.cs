@@ -59,10 +59,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.confirguraçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarComoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.confirguraçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -295,6 +295,7 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Gerar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
@@ -317,6 +318,18 @@
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
+            // salvarToolStripMenuItem
+            // 
+            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
+            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.salvarToolStripMenuItem.Text = "Salvar";
+            // 
+            // salvarComoToolStripMenuItem
+            // 
+            this.salvarComoToolStripMenuItem.Name = "salvarComoToolStripMenuItem";
+            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.salvarComoToolStripMenuItem.Text = "Salvar Como";
+            // 
             // confirguraçãoToolStripMenuItem
             // 
             this.confirguraçãoToolStripMenuItem.Name = "confirguraçãoToolStripMenuItem";
@@ -329,18 +342,6 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // salvarToolStripMenuItem
-            // 
-            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.salvarToolStripMenuItem.Text = "Salvar";
-            // 
-            // salvarComoToolStripMenuItem
-            // 
-            this.salvarComoToolStripMenuItem.Name = "salvarComoToolStripMenuItem";
-            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.salvarComoToolStripMenuItem.Text = "Salvar Como";
             // 
             // Form1
             // 
