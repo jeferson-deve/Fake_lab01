@@ -8,22 +8,138 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Fake_lab.Properties
-{
-
-
+namespace Fake_lab.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2900")]
+        public int Vol_acido {
+            get {
+                return ((int)(this["Vol_acido"]));
+            }
+            set {
+                this["Vol_acido"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3900")]
+        public int Vol_coagulante {
+            get {
+                return ((int)(this["Vol_coagulante"]));
+            }
+            set {
+                this["Vol_coagulante"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7000")]
+        public int Vol_composto {
+            get {
+                return ((int)(this["Vol_composto"]));
+            }
+            set {
+                this["Vol_composto"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2000")]
+        public int Vol_talco {
+            get {
+                return ((int)(this["Vol_talco"]));
+            }
+            set {
+                this["Vol_talco"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1.0751")]
+        public double Fat_soda {
+            get {
+                return ((double)(this["Fat_soda"]));
+            }
+            set {
+                this["Fat_soda"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.8")]
+        public double Fat_edta {
+            get {
+                return ((double)(this["Fat_edta"]));
+            }
+            set {
+                this["Fat_edta"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.9756")]
+        public double Fat_hcl {
+            get {
+                return ((double)(this["Fat_hcl"]));
+            }
+            set {
+                this["Fat_hcl"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("59")]
+        public double Con_hno3 {
+            get {
+                return ((double)(this["Con_hno3"]));
+            }
+            set {
+                this["Con_hno3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("99.9")]
+        public double Con_carbonato {
+            get {
+                return ((double)(this["Con_carbonato"]));
+            }
+            set {
+                this["Con_carbonato"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("65.8")]
+        public double Con_nitrato {
+            get {
+                return ((double)(this["Con_nitrato"]));
+            }
+            set {
+                this["Con_nitrato"] = value;
             }
         }
     }

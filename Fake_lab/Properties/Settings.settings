@@ -1,7 +1,36 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Fake_lab.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Vol_acido" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2900</Value>
+    </Setting>
+    <Setting Name="Vol_coagulante" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3900</Value>
+    </Setting>
+    <Setting Name="Vol_composto" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7000</Value>
+    </Setting>
+    <Setting Name="Vol_talco" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="Fat_soda" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.0751</Value>
+    </Setting>
+    <Setting Name="Fat_edta" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.8</Value>
+    </Setting>
+    <Setting Name="Fat_hcl" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.9756</Value>
+    </Setting>
+    <Setting Name="Con_hno3" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">59</Value>
+    </Setting>
+    <Setting Name="Con_carbonato" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">99.9</Value>
+    </Setting>
+    <Setting Name="Con_nitrato" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">65.8</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

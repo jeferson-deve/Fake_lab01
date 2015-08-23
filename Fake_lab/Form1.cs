@@ -16,5 +16,27 @@ namespace Fake_lab
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox21_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirguraçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            Configura tes = new Configura();            
+            tes.Show();
+        }
     }
 }
