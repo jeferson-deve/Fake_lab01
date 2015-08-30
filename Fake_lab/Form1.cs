@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.IO;
-using System.Text;
+//using System.Text;
 
 namespace Fake_lab
 {
@@ -38,20 +38,39 @@ namespace Fake_lab
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double result = analise_acido(2900, 3.500, 0.9756);
-            salvar(Convert.ToString(result));
-        }
+            //calculo de Acido..
+            Calculos calculo = new Calculos();
+            Random sort = new Random();
+            double fator = Properties.Settings.Default.Fat_soda;
+            Int32 quantidade = Convert.ToInt32(Qtd_acido.Text);
 
-        public double analise_acido(double volume, double peso_amos, double FC)
-        {
-            double resultado = 0;            
-            /*volume = 2900;
-            FC = 0.9756;
-            peso_amos = 3500;*/
-            resultado = (volume * FC * 63 * 100) / peso_amos;
-            return resultado;
+            decimal minimo = Convert.ToDecimal(Min_acido.Text);
+            decimal maximo = Convert.ToDecimal(Max_acido.Text);//14
 
-        }
+            Int32 num_minimo = Convert.ToInt32(minimo);
+            Int32 num_maximo = Convert.ToInt32(maximo); //14
+
+            for (int i = 0; i < quantidade; i++)
+            {
+                Int32 peso = sort.Next(3501, 3999);                
+                
+                Int32 num_esperado = sort.Next(num_minimo, num_maximo);
+                double esperado = num_esperado / 10;
+                double volume = calculo.reverse_ac(esperado, peso, fator);
+                double resutado = calculo.analise_acido(volume, peso, fator);
+
+                salvar(Convert.ToString("Analise de Acido - TESTE"));
+                salvar(Convert.ToString(peso));
+                salvar(Convert.ToString(string.Format("{0:f}", volume)));
+                salvar(Convert.ToString(string.Format("{0:f}", resutado)));
+                salvar(Convert.ToString(maximo));
+                salvar(Convert.ToString(num_maximo));
+
+            }
+            
+            
+            //salvar(Convert.ToString(teste));
+        }        
 
 
     

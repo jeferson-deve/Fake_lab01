@@ -101,6 +101,7 @@
             this.Qtd_acido.Name = "Qtd_acido";
             this.Qtd_acido.Size = new System.Drawing.Size(37, 20);
             this.Qtd_acido.TabIndex = 3;
+            this.Qtd_acido.Text = "0";
             // 
             // Min_acido
             // 
@@ -108,13 +109,16 @@
             this.Min_acido.Name = "Min_acido";
             this.Min_acido.Size = new System.Drawing.Size(36, 20);
             this.Min_acido.TabIndex = 4;
+            this.Min_acido.Text = "0";
             // 
             // Max_acido
             // 
+            this.Max_acido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Max_acido.Location = new System.Drawing.Point(252, 81);
             this.Max_acido.Name = "Max_acido";
             this.Max_acido.Size = new System.Drawing.Size(36, 20);
             this.Max_acido.TabIndex = 5;
+            this.Max_acido.Text = "0";
             this.Max_acido.TextChanged += new System.EventHandler(this.textBox21_TextChanged);
             // 
             // Qtd_carbonato
